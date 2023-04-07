@@ -1,11 +1,13 @@
 import TicTacToeNonGUI
 import GUIexp
+import NumberGuesser
 #prints the list of options 
 def listgames():
     print("1. Tic Tac Toe")
     print("2. Get the Square")
-    print("3. Show Scores")
-    print("4. Exit")
+    print("3. Guess the number")
+    print("4. Show Scores")
+    print("5. Exit")
 
 
 game = 0
@@ -96,8 +98,12 @@ while game != -1:
             score = open("score.txt", "w")
             score.writelines(lines)
             score.close()
+
+
+    elif game == 3: 
+        NumberGuesser.NumberGuesser()
     #displays the score
-    elif game == 3:
+    elif game == 4:
         try:
             score = open("score.txt")
         except:
@@ -119,5 +125,5 @@ while game != -1:
         print("Ties: " + Ties, end = "")
         print("High Score: " + highScore)
     #exits from the game and ends the program
-    elif game == 4:
+    elif game == 5:
         game = -1
