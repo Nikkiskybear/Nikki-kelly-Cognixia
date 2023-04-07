@@ -26,12 +26,19 @@ def getGuess():
     return guess
 
 def loadSave():
-    save = open("save.txt")
-    lines = save.readlines()
 
-    lastGuess = lines[0]
-    highLow = lines[1]
-    target = lines[2]
+    try:
+        save = open("save.txt")
+        lines = save.readlines()
+
+        lastGuess = lines[0]
+        highLow = lines[1]
+        target = lines[2]
+    except:
+        print("there is no vaild save starting a new game")
+        lastGuess = -1
+        highLow = "low"
+        target = pickNumber()
 
     return lastGuess, highLow, target
 
