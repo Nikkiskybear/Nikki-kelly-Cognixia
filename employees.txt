@@ -1,0 +1,36 @@
+dict_items([('name', 'nikki'), ('age', 23), ('years coding', 5)])
+('one', 'thre', 'two')
+['one', 'thre', 'two']
+{'thre', 'one', 'two'}
+dict_items([('name', 'Nikki'), ('age', 25), ('years coding', 2)])
+('Python', 'hotweels', 'ruby')
+['python', 'java', 'c']
+set()
+dict_items([('name', 'sldkfnsd'), ('age', 24), ('years coding', 2)])
+('one', 'two', 'three')
+['one', 'tho', 'three']
+{'one', 'three'}
+dict_items([('name', 'nikki'), ('age', 34), ('years coding', 2)])
+('fs', 'fg', 'fh')
+['fo', 'fi', 'hm']
+set()
+dict_items([('name', 'hon310/python.exe c:/Users/nikki/Desktop/Coding/Cognixia/Congnixa/Student_exercises/emplyeess.py'), ('age', 2), ('years coding', 4)])
+('one', 'tho', 'three')
+['two', 'three', 'for']
+{'three'}
+dict_items([('name', 'nikki'), ('age', 2), ('years coding', 4)])
+('Python ', 'Java', 'rust')
+['0', 'a', 'd']
+set()
+dict_items([('name', 'nikki'), ('age', 2), ('years coding', 4)])
+('python', 'java', 'rust')
+['o', 's', 'y']
+set()
+dict_items([('name', 'Nikki'), ('age', 14), ('years coding', 5)])
+('java', 'p', 's')
+['pythyon', 'python', 'c']
+set()
+dict_items([('name', 'nikki'), ('age', 24), ('years coding', 5)])
+('Python', 'python', 'ruby')
+['python', 'ruby', 'c']
+{'python', 'ruby'}
