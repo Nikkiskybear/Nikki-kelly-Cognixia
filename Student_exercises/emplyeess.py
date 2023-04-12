@@ -10,6 +10,31 @@ def userinput(string):
             uinput = -2
 
     return uinput
+
+class emplyee():
+    name = ""
+    age = 0
+    codingYears = 0
+    firstLanguages = []
+    FavoriteLanguages = []
+    def __init__(self, userdict, FavoriteLanguages, firstLanguages):
+        self.name = userdict["name"]
+        self.age = userdict["age"]
+        self.codingYears = userdict["years coding"]
+
+        self.firstLanguages = firstLanguages
+
+        self.FavoriteLanguages = FavoriteLanguages
+
+    def __str__(self):
+        x = self.name + " " + str(self.age) + " " + str(self.codingYears) + " First Languages are: "
+        for i in self.firstLanguages:
+            x += i + " "
+        x += "Favorite Languages: "
+        for i in self.FavoriteLanguages:
+            x += i + " "
+        x += "\n"
+        return x
         
         
 
@@ -35,7 +60,7 @@ firstLanguages = (userinput1, userinput2, userinput3)
 
 favoriteLanguages = []
 for i in range(3):
-    userinput = input("please enter your " + str(i) + " " + "favorite programming language: " )
+    userinput = input("please enter your " + str(i+1) + " " + "favorite programming language: " )
     favoriteLanguages.append(userinput)
 
 setintersection = set(firstLanguages) & set(favoriteLanguages)
@@ -61,17 +86,10 @@ def realLang(n):
     return False
 
 
-stringuser = list(map(makeSTR, firstLanguages))
 
-isReal = list(filter(realLang, firstLanguages))
+frank = emplyee(collectiondict["userdict"], collectiondict["favoriteLanguages"], collectiondict["firstLanguages"])
 
-print(isReal)
-
-isReal = list(filter(realLang, favoriteLanguages))
-
-print(isReal)
-
-print(stringuser)
+print(frank)
 files.write(str(collectiondict["userdict"].items()) + "\n")
 
 files.write(str(collectiondict["firstLanguages"])  + "\n")

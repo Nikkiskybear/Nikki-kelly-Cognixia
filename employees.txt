@@ -34,3 +34,15 @@ dict_items([('name', 'nikki'), ('age', 24), ('years coding', 5)])
 ('Python', 'python', 'ruby')
 ['python', 'ruby', 'c']
 {'python', 'ruby'}
+dict_items([('name', 'hon310/python.exe c:/Users/nikki/Desktop/Coding/Cognixia/Congnixa/Student_exercises/emplyeess.py'), ('age', 2), ('years coding', 5)])
+('one', 'two', 'three')
+['f', 's', '']
+set()
+dict_items([('name', 'tim'), ('age', 55), ('years coding', 12)])
+('one', 'two', 'three')
+['one', 'two', 'three']
+{'one', 'three', 'two'}
+dict_items([('name', 'frank'), ('age', 45), ('years coding', 55)])
+('one', 'two', 'thee')
+['the', 's', '2']
+set()
